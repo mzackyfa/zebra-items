@@ -1,7 +1,7 @@
 import './App.css';
 import Select from 'react-select'
 import { useEffect, useState } from 'react';
-
+import Text from './components/text';
 
 function App() {
   const [datas, setDatas] = useState([])
@@ -38,6 +38,7 @@ function App() {
       <h1>{isShow ? userSelect :""}</h1>
       <button onClick={() => handleSubmit()} disabled={!userSelect}>{isShow ? "hide button" : "Show Values"}</button>
       <Select options={datas} onChange={(e) => handleChange(e.value)} ></Select>
+      <Text />
     </div>
   );
 }
