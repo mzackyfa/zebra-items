@@ -1,4 +1,5 @@
-#### Preview Code :
+#### Go to ZEBRA/blob/master/src/App.jsx
+Preview Code :
 ```js
 function App() {
   const [datas, setDatas] = useState([])
