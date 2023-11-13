@@ -1,4 +1,4 @@
-#### Go to ZEBRA/blob/master/src/App.jsx
+#### Berries API
 Preview Code :
 ```js
 function App() {
